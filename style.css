@@ -3,7 +3,7 @@
 body{
     font-family: "Bai Jamjuree";
     font-size: 18px;
-    background: url('./images/bg-header-desktop.png');
+    background: url('./bg-header-desktop.png');
     background-size: 100vh;
     background-size: 100vw;
     background-repeat: no-repeat;
@@ -171,6 +171,7 @@ h3{
 
 .icon { 
   max-width: 300px;
+  margin-bottom: 60px;
 }
 
 .feature-item {
@@ -242,6 +243,10 @@ footer .social {
 
 @media (max-width:768px) {
   body{
+    background: url('./bg-header-mobile.png');
+    background-size: 100vh;
+    background-size: 100vw;
+    background-repeat: no-repeat;
     margin: 0 auto;
   }
 
